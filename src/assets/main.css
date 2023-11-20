@@ -1,0 +1,15 @@
+@import './reset.css';
+
+:root {
+  --app-background-color: #91a829;
+  --grid-color: #e7f6bb;
+  --grid-color-darken10: #daf195;
+  --grid-color-darken15: #d3ee82;
+  --grid-color-darken20: #ccec6f;
+  --snake-color: #38402e;
+  --food-color: #a84029;
+  --panel-color: #acc95f;
+  --button-color: #eeeeee;
+  --button-color-hover: #dddddd;
+  --main-border-radius: 10px;
+}
