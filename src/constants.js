@@ -45,6 +45,12 @@ const arrowMapping = {
   up: '▲',
   down: '▼'
 }
+const degMapping = {
+  right: '180deg',
+  left: '0deg',
+  up: '90deg',
+  down: '-90deg'
+}
 
 export {
   movingSpeed,
@@ -59,5 +65,6 @@ export {
   initialState,
   gridWidth,
   disabledDirectionMapping,
-  arrowMapping
+  arrowMapping,
+  degMapping
 }

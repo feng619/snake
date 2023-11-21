@@ -21,8 +21,8 @@ const hasFood = computed(() => typeof store.state.foodCoordString === 'string')
       </template>
     </template>
 
-    <template v-for="(coord, i) in store.state.coords" :key="coord + i">
-      <SnakeDot :coordString="coord" />
+    <template v-for="(coord, i) in store.state.coords" :key="coord + Math.random().toFixed(6)">
+      <SnakeDot :coordString="coord" :index="i" />
     </template>
 
     <FoodDot
